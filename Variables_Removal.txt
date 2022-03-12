@@ -1,0 +1,33 @@
+['Overall.Qual',
+  'Exter.Qual', -- 
+  'area', 
+  'Kitchen.Qual',
+  'Total.Bsmt.SF',
+  'X1st.Flr.SF', --
+  'Garage.Cars', --
+  'Garage.Area',
+  'Bsmt.Qual', --
+  'Exterior.2nd_VinylSd', --
+  'Foundation_PConc', --
+  'MS.Zoning_RM',
+  'Garage.Type_Attchd', --
+  'Foundation_CBlock',
+  'Neighborhood_NridgHt',
+  'Mas.Vnr.Type_None',
+  'Garage.Type_Detchd',
+  'MS.SubClass_60', -- 
+  'Exterior.1st_VinylSd'], --
+ 'price')
+
+
+Copy that to new model:
+ ['Overall.Qual',
+  'area', 
+  'Kitchen.Qual',
+  'Total.Bsmt.SF',
+  'Garage.Area',
+  'MS.Zoning_RM',
+  'Foundation_CBlock',
+  'Neighborhood_NridgHt',
+  'Mas.Vnr.Type_None',
+  'Garage.Type_Detchd']
